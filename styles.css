@@ -16,7 +16,7 @@
 
 .navbar_left a{
     text-decoration: none;
-    color: darkgrey;
+    color: darkslategray;
     font-family: monospace;
     font-size: 25px;
     margin-right: 25px;
@@ -35,9 +35,14 @@
 .navbar_right a{
     text-decoration: none;
     font-family: monospace;
-    color: darkgrey;
+    color: darkslategray;
     margin-left: 50px;
     font-size: 25px;
+
+}
+
+.navbar_right a:hover{
+    color:whitesmoke;
 }
 
 .navbar_right ul{
