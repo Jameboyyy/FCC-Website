@@ -1,19 +1,22 @@
+/*Margin Padding Structure*/
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Navigation Bar Background*/
 .navbar_contain{
     background: #C1E1C1;
     height: 100px;
     display: flex;
 }
 
-
+/*Left Side of NavBar(For Logo)*/
 .navbar_left{
     width: 40%;
 }
 
+/*FCC Logo*/
 .navbar_left img{
     margin-bottom: 50px;
     width: 300px;
@@ -21,14 +24,16 @@
     display:block;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+/*Right Side of NavBar(For Tabs)*/
 .navbar_right{
     width: 60%;
     list-style: none;
     margin-top: 60px;
 }
 
+/*Links on Right Side of NavBar*/
 .navbar_right a{
     text-decoration: none;
     font-family: "Lucida Console" monospace;
@@ -38,9 +43,11 @@
 
 }
 
+/*Changes color of links when hovered*/
 .navbar_right a:hover{
     color:whitesmoke;
 }
+
 
 .navbar_right ul{
     list-style-type: none;
