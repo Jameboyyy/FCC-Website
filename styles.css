@@ -31,7 +31,7 @@
 
 .navbar_right a{
     text-decoration: none;
-    font-family: monospace;
+    font-family: "Lucida Console" monospace;
     color: #6B8E23;
     margin-left: 50px;
     font-size: 25px;
@@ -48,4 +48,10 @@
 
 .navbar__item{
     display: inline;
+}
+
+#homeVideo{
+    position: fixed;
+    top: 0;
+    left: 0;
 }
