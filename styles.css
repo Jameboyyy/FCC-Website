@@ -1,66 +1,84 @@
-/*Margin Padding Structure*/
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-/*Navigation Bar Background*/
-.navbar_contain{
-    background: #C1E1C1;
-    height: 100px;
-    display: flex;
-}
-
-/*Left Side of NavBar(For Logo)*/
-.navbar_left{
-    width: 40%;
-}
-
-/*FCC Logo Link*/
-.navbar_left a{
-    margin: auto;
-}
-
-/*FCC LOGO PNG*/
-.navbar_left img{
-    height: 110px;
-    position: relative;
-    left: 250px;
-}
-
-/*Right Side of NavBar(For Tabs)*/
-.navbar_right{
-    width: 60%;
-    list-style: none;
-    margin-top: 60px;
-}
-
-/*Links on Right Side of NavBar*/
-.navbar_right a{
-    text-decoration: none;
-    font-family: "Lucida Console" monospace;
-    color: #6B8E23;
-    margin-left: 50px;
-    font-size: 25px;
-
-}
-
-/*Changes color of links when hovered*/
-.navbar_right a:hover{
-    color:whitesmoke;
-}
-
-
-.navbar_right ul{
+li {
     list-style-type: none;
 }
 
-.navbar__item{
-    display: inline;
+a {
+    text-decoration: none;
 }
 
-#homeVideo{
-    position: fixed;
-    top: 0;
-    left: 0;
+section {
+    background-color: whitesmoke;
+}
+
+
+#home__page {
+    min-height: 100vh;
+}
+
+/*
+
+    NAV Section
+
+*/
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+#church__logo {
+    width: 350px;
+    height: 175px;
+}
+
+.nav__link--list {
+    display: flex;
+}
+
+.nav__links {
+    margin: 0 12px;
+}
+
+.nav__link--anchor {
+    font-size: 16px;
+    color: rgb(97, 146, 28);
+    font-weight: 700;
+}
+
+/*
+
+    Header Page
+
+*/
+
+.header {
+    position: absolute;
+    top: 25%;
+    width: 100%;
+    max-width: 2000px;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.title {
+    font-size: 52px;
+    color: rgb(97, 146, 28);
+}
+
+.title__brown  {
+    color: rgb(135, 75, 41);
 }
