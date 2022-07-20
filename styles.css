@@ -82,3 +82,11 @@ nav {
 .title__brown  {
     color: rgb(135, 75, 41);
 }
+
+.header__para {
+    color: rgb(97, 146, 28);
+    text-align: center;
+    justify-content: center;
+    margin: 0 150px;
+    line-height: 2;
+}
