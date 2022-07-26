@@ -20,8 +20,31 @@ section {
     transition: all 300ms ease;
 }
 
+input, textarea {
+    width: 100%;
+    background-color: rgb(135, 75, 41);
+    color: whitesmoke;
+    outline: none;
+    border: 1px solid #c0c4cc;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 40px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
 .green {
     color: rgb(97, 146, 28);
+    font-weight: 700;
 }
 
 nav,
@@ -100,7 +123,7 @@ nav,
 .scroll__icon {
     width: 20px;
     height: 30px;
-    border: 2px solid #242424;
+    border: 2px solid rgb(135, 75, 41);
     border-radius: 24px;
     display: flex;
     align-items: center;
@@ -111,7 +134,7 @@ nav,
     content: "";
     width: 4px;
     height: 6px;
-    background-color: #242424;
+    background-color: rgb(135, 75, 41);
     border-radius: 2px;
     animation: scroll 1000ms infinite;
 }
@@ -141,6 +164,7 @@ nav {
     margin: 0 auto;
     padding: 0 20px;
     height: 100px;
+    padding-top: 15px;
 }
 
 #church__logo {
@@ -194,7 +218,7 @@ nav {
 
 .modal__half {
     width: 50%;
-    padding: 40px 72px;
+    padding: 40px 64px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -211,6 +235,7 @@ nav {
 .modal__about {
     background-color:whitesmoke;
     transform: translateX(-110%);
+    color: rgb(135, 75, 41);
 }
 
 .modal__contact {
@@ -223,17 +248,20 @@ nav {
 .modal__title {
     font-size: 24px;
     margin-bottom: 50px;
+    text-align: center;
 }
 
 .modal__sub-title {
     font-size: 24px;
     margin-bottom: 25px;
+    text-align: center;
 }
 
 .modal__para {
     margin-bottom: 12px;
-    line-height: 1.75;
-    color: black;
+    line-height: 3;
+    color: rgb(135, 75, 41);
+    text-align: center;
 }
 
 .form__item {
@@ -320,7 +348,30 @@ nav {
     z-index: 100;
   }
 
+/*
 
+        Mission
+
+
+*/
+
+.container {
+    align-items: center;
+}
+
+.section__title {
+    font-size: 36px;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.mission__para {
+    padding: 15px 350px;
+    color: rgb(135, 75, 41);
+    text-align: center;
+    line-height: 1.75;
+    font-size: 18px;
+}
 
 /*
 
