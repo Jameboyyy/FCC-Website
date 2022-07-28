@@ -262,6 +262,7 @@ nav {
     line-height: 3;
     color: rgb(135, 75, 41);
     text-align: center;
+    font-size: 18px;
 }
 
 .form__item {
@@ -373,6 +374,41 @@ nav {
     font-size: 18px;
 }
 
+.g12 {
+    margin-bottom: 135px;
+}
+
+.mission__img {
+    position: relative;
+    max-width: 100%;
+    width: 500px;
+    height: 500px;
+    transition: all 600ms ease;
+}
+
+.img__left {
+    left: 20%;
+}
+
+.img__right {
+    left: 30%;
+}
+
+.project__wrapper {
+    position: relative;
+    border-radius: 20px;
+    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
+}
+
+.project__wrapper:hover .project__img {
+    transform: scale(1.07);
+    filter: blur(5px);
+}
+
+.project__wrapper:hover .project__description {
+    opacity: 1;
+    transform: translateY(-50%);
+}
 /*
 
         RESPONSIVE
