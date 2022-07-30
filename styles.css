@@ -382,85 +382,27 @@ nav {
     font-size: 18px;
 }
 
-.g12 {
-    margin-bottom: 135px;
-}
+/*
 
-.mission__img {
-    position: relative;
-    max-width: 100%;
-    width: 500px;
-    height: 500px;
-    transition: all 600ms ease;
-}
+        G12 Principles
 
-.img__left {
-    left: 20%;
-    position: relative;
-    max-width: 100%;
-    width: 500px;
-    height: 500px;
-    transition: all 600ms ease;
-}
-
-.img__right {
-    left: 30%;
-    position: relative;
-    max-width: 100%;
-    width: 500px;
-    height: 500px;
-    transition: all 600ms ease;
+*/
+.g12__row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .mission__wrapper {
-    position: relative;
-    border-radius: 20px;
-    box-shadow: 0 20px 80px 0 rgb(0, 0, 0, 0.55);
-    background-color: whitesmoke;
-}
-
-.img__left:hover {
-    transform: scale(1.07);
-    filter: blur(5px);
-}
-
-.img__right:hover {
-    transform: scale(1.07);
-    filter: blur(5px);
-}
-
-.img__left:hover .description__left {
-    opacity: 1;
-    transform: translateY(-50%);
-}
-
-.img__right:hover .description__right {
-    opacity: 1;
-    transform: translateY(-50%);
-}
-
-.description__left {
-    position: absolute;
-    top: 50%;
-    left: 90px;
-    transform: translateY(100%);
-}
-
-.mission__wrapper:hover .mission__wrapper--bg {
-    opacity: 0.7;
-    visibility: visible;
+    margin-left: 230px;
 }
 
 
-.mission__description--title {
-    font-size: 40px;
+
+.mission__img {
+    width: 500px;
+    height: 500px;
 }
-
-.mission__description--sub-title {
-    margin-top: 8px;
-}
-
-
 
 /*
 
