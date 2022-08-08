@@ -139,6 +139,12 @@ nav,
 
 .contact__btn:hover {
     cursor: pointer;
+    transform: scale(1.07);
+}
+
+.contact__btn:active {
+    cursor: pointer;
+    transform: scale(0.93);
 }
 
 .scroll {
@@ -644,3 +650,204 @@ footer {
         RESPONSIVE
 
 */
+
+@media (max-width: 1440px) {
+    .tithes__title{
+        margin-top: 50px;
+    }
+
+    .tithes__que {
+        margin: 15px;
+    }
+    .tithing__exp {
+        line-height: 2;
+        font-size: 14px;
+    }
+    .give__tithe {
+        margin: 50px;
+    }
+    .give__exp {
+        margin: 10px;
+    }
+    .give__opt {
+        margin: 20px;
+    }
+    .or {
+        margin: 25px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mission__para {
+        padding: 0 150px;
+    }
+
+    .mission__img {
+        width: 275px;
+        height: 300px;
+    }
+
+    .description__title--left {
+        font-size: 24px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    .description__title--right {
+        font-size: 24px;
+        -webkit-text-stroke: 1px black;
+    }
+
+    .description__sub-title--left {
+        font-size: 12px;
+        -webkit-text-stroke: 0.5px black;
+    }
+
+    .description__sub-title--right {
+        font-size: 12px;
+        -webkit-text-stroke: 0.5px black;
+    }
+    
+    .tithes__title {
+        margin-top: 25px;
+        font-size: 32px;
+    }
+
+    .tithes__que {
+        margin: 10px;
+        font-size: 28px;
+    }
+
+    .tithing__exp {
+        line-height: 1.75;
+    }
+
+    .give__tithe {
+        margin: 25px 0px 0px;
+        font-size: 32px;
+    }
+
+    .give__exp {
+        margin: 10px;
+        font-size: 28px;
+    }
+
+    .give__opt {
+        font-size: 32px;
+    }
+
+    .or {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal__title {
+        font-size: 32px;
+    }
+
+    .modal__title--contact {
+        margin: 0 0 25px;
+    }
+
+    .modal__para {
+        line-height: 1.75;
+    }
+
+    .contact__btn {
+        background-color: rgb(97, 146, 28); 
+    }
+
+    .g12__para {
+        margin-top: 30px;
+        padding: 0 150px;
+    }
+
+    .mission__wrapper {
+        margin: 20px;
+    }
+
+    .description__sub-title--left {
+        padding: 0 15px;
+    }
+
+    .description__sub-title--right {
+        padding: 0 15px;
+    }
+
+    .tithes__title {
+        font-size: 24px;
+        -webkit-text-stroke: 0.75px black;
+    }
+
+    .tithes__que {
+        font-size: 20px;
+        -webkit-text-stroke: 0.75px black;
+    }
+
+    .tithing__exp {
+        font-size: 11px;
+    }
+
+    .give__tithe {
+        font-size: 24px;
+        -webkit-text-stroke: 0.75px black;
+    }
+
+    .give__exp {
+        font-size: 20px;
+        -webkit-text-stroke: 0.75px black;
+    }
+
+    .give__opt {
+        font-size: 28px;
+    }
+
+    .or {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 480px) {
+    nav {
+        overflow: hidden;
+    }
+
+    .nav__link--list {
+        
+    }
+
+    .contact__btn {
+        width: 70px;
+        height: 70px;
+        font-size: 32px;
+        background-color:rgb(135, 75, 41);
+        color: whitesmoke;
+        position: fixed;
+        bottom: 15px;
+        right: 10px;
+    }
+
+    .mission__para {
+        margin: 0;
+        padding: 0 50px;
+    }
+
+    .g12__para {
+        margin-top: 30px;
+        padding: 0 50px;
+    }
+
+    .header__para {
+        margin: 0px;
+        text-align: center;
+    }
+
+    .mission__wrapper {
+        align-items: center;
+        display: flex;
+    }
+
+    .g12 {
+        display: flex;
+    }
+}
