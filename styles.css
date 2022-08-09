@@ -394,6 +394,10 @@ nav {
       cursor: pointer;
   }
 
+  .modal__exit:active {
+    transform: scale(0.93);
+  }
+
 /*
 
         Mission
@@ -643,8 +647,102 @@ nav {
 
 footer {
     min-height: 25vh;
-    background-color: rgb(97, 146, 28);
+    background-color: whitesmoke;
+    align-items: center;
+    text-align: center;
 }
+
+.logo__footer {
+    margin: 35px auto;
+    width: auto;
+    height: 125px;
+}
+
+.Author {
+    text-align: center;
+    color: rgb(97, 146, 28);
+    -webkit-text-stroke: 0.25px black;
+}
+
+.contact__footer {
+    color:rgb(97, 146, 28);
+    -webkit-text-stroke: 0.25px black;
+}
+
+/*
+
+    SHAPES
+
+*/
+
+.shape {
+    position: fixed;
+}
+
+.shape--0 {
+    top: 15vh;
+    left: 5vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--1 {
+    top: 15vh;
+    left: 50vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--2 {
+    top: 15vh;
+    left: 80vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--3 {
+    top: 50vh;
+    left: 20vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--4 {
+    top: 50vh;
+    left: 45vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--5 {
+    top: 50vh;
+    left: 75vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--6 {
+    top: 80vh;
+    left: 5vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--7 {
+    top: 80vh;
+    left: 50vw;
+    height: 30px;
+    width: 30px;
+}
+
+.shape--8 {
+    top: 80vh;
+    left: 80vw;
+    height: 30px;
+    width: 30px;
+}
+
+
 /*
 
         RESPONSIVE
@@ -678,6 +776,10 @@ footer {
 }
 
 @media (max-width: 1024px) {
+    nav {
+        overflow: hidden;
+    }
+
     .mission__para {
         padding: 0 150px;
     }
@@ -776,12 +878,12 @@ footer {
 
     .tithes__title {
         font-size: 24px;
-        -webkit-text-stroke: 0.75px black;
+        -webkit-text-stroke: 0.5px black;
     }
 
     .tithes__que {
         font-size: 20px;
-        -webkit-text-stroke: 0.75px black;
+        -webkit-text-stroke: 0.5px black;
     }
 
     .tithing__exp {
@@ -790,12 +892,12 @@ footer {
 
     .give__tithe {
         font-size: 24px;
-        -webkit-text-stroke: 0.75px black;
+        -webkit-text-stroke: 0.5px black;
     }
 
     .give__exp {
         font-size: 20px;
-        -webkit-text-stroke: 0.75px black;
+        -webkit-text-stroke: 0.5px black;
     }
 
     .give__opt {
@@ -809,11 +911,11 @@ footer {
 
 @media (max-width: 480px) {
     nav {
-        overflow: hidden;
+        padding: 65px;
     }
 
     .nav__link--list {
-        
+        display: none;
     }
 
     .contact__btn {
@@ -842,12 +944,62 @@ footer {
         text-align: center;
     }
 
+    .modal__half {
+        padding: 15px;
+    }
+
+    .modal__contact {
+        padding: 20px;
+    }
+
+    .modal__title {
+        margin-top: 60px;
+        font-size: 24px;
+        -webkit-text-stroke: 0.5px black;
+    }
+
+    .modal__sub-title {
+        font-size: 24px;
+        -webkit-text-stroke: 0.5px black;
+    }
+
+    .modal__para {
+        font-size: 16px;
+        line-height: 1.75;
+    }
+
     .mission__wrapper {
-        align-items: center;
         display: flex;
+        margin: 10px 10px;
     }
 
     .g12 {
         display: flex;
+    }
+
+    .img__left {
+        width: 200px;
+        height: 200px;
+    }
+
+    .img__right {
+        width: 200px;
+        height: 200px;
+    }
+
+    .description__title--left {
+        font-size: 18px;
+    }
+
+    .description__title--right {
+        font-size: 18px;
+    }
+
+    .description__sub-title--left {
+        font-size: 12px;
+    }
+
+    .description__sub-title--right {
+        font-size: 12px;
     }
 }
