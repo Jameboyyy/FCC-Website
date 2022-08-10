@@ -653,12 +653,13 @@ footer {
 }
 
 .logo__footer {
-    margin: 35px auto;
+    margin: auto;
     width: auto;
     height: 125px;
 }
 
 .Author {
+    padding-bottom: 40px;
     text-align: center;
     color: rgb(97, 146, 28);
     -webkit-text-stroke: 0.25px black;
@@ -759,7 +760,7 @@ footer {
     }
     .tithing__exp {
         line-height: 2;
-        font-size: 14px;
+        font-size: 16px;
     }
     .give__tithe {
         margin: 50px;
